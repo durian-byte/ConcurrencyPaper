@@ -112,6 +112,7 @@
 - **Dynamic Testing/Systematic Testing**
   - [Fray: An Efficient General-Purpose Concurrency Testing Platform for the JVM (OOPSLA 2025)](https://dl.acm.org/doi/pdf/10.1145/3764119)
   - [Selectively Uniform Concurrency Testing (ASPLOS 2025)](https://dl.acm.org/doi/pdf/10.1145/3669940.3707214)
+  - [Probabilistic Concurrency Testing for Weak Memory Programs (ASPLOS 2023)](https://dl.acm.org/doi/pdf/10.1145/3575693.3575729)
   - [Waffle: Exposing Memory Ordering Bugs Efficiently with Active Delay Injection (EuroSys 2023)](https://www.microsoft.com/en-us/research/uploads/prod/2022/12/EuroSys23_camera_ready__WAFFLE_Exposing_Memory_Ordering_Bugs_Efficiently_with_Active_Delay_Injection.pdf)
   - [Efficiently Detecting Concurrency Bugs in Persistent Memory Programs (ASPLOS 2022)](https://csyhua.github.io/csyhua/hua-asplos22.pdf)
   - [Controlled Concurrency Testing via Periodical Scheduling (ICSE 2022)](https://sites.google.com/view/period-cct)
@@ -170,6 +171,7 @@
 
 - **Reproducing/Dubugging**
   - [DR.FIX: Automatically Fixing Data Races at Industry Scale (PLDI 2025)](https://dl.acm.org/doi/pdf/10.1145/3729265)
+  - [Scalable Statistical Root Cause Analysis on App Telemetry (ICSE 2021)](https://arxiv.org/pdf/2010.09974)
   - [Sparse record and replay with controlled scheduling (PLDI 2019)](https://dl.acm.org/doi/10.1145/3314221.3314635)
   - [AggrePlay: efficient record and replay of multi-threaded programs (ESEC/FSE 2019)](https://www.cs.cityu.edu.hk/~wkchan/papers/fse2019-pobee+chan.pdf)
   - [D4: Fast Concurrency Debugging with Parallel Differential Analysis (PLDI 2018)](https://parasol.tamu.edu/people/jeff/academic/d4.pdf)
@@ -180,6 +182,7 @@
 - **Theory**
   - [A Concurrent Program Logic with a Future and History (OOPSLA 2022)](https://arxiv.org/pdf/2207.02355.pdf)
   - [Concurrent Size (OOPSLA 2022)](https://arxiv.org/abs/2209.07100)
+  - [Hitting Families of Schedules for Asynchronous Programs (CAV 2016)](https://arxiv.org/pdf/1602.03755)
   
 - **Empirical Study/Benchmarking**
   - [RaceBench: A Triggerable and Observable Concurrency Bug Benchmark (AsiaCCS 2023)](https://siqima.me/publications/RaceBench.pdf)
