@@ -27,6 +27,7 @@
   - [Maximal Sound Predictive Race Detection with Control Flow Abstraction (PLDI 2014)](http://fsl.cs.illinois.edu/FSL/papers/2014/huang-meredith-rosu-2014-pldi/huang-meredith-rosu-2014-pldi-public.pdf)
 
 - **Stateless Model Checking**
+  - [Optimal Concolic Dynamic Partial Order Reduction (CONCUR 2025)](https://drops.dagstuhl.de/storage/00lipics/lipics-vol348-concur2025/LIPIcs.CONCUR.2025.26/LIPIcs.CONCUR.2025.26.pdf)
   - [GenMC: A Model Checker for Weak Memory Models (CAV 2021)](http://plv.mpi-sws.org/genmc/cav21-paper.pdf) -[[Slide]](soundandcomplete.org/papers/PLDI2019/GenMC-Talk.pdf), [[Tool: GenMC]](plv.mpi-sws.org/genmc)
   - [Parallel graph-based stateless model checking (ATVA 2020)](https://link.springer.com/chapter/10.1007/978-3-030-59152-6_21)
   - [Effective lock handling in stateless model checking (OOPSLA 2019)](https://dl.acm.org/doi/abs/10.1145/3360599)
@@ -67,6 +68,9 @@
   - [RELAY: Static Race Detection on Millions of Lines of Code (FSE 2007)](https://cseweb.ucsd.edu//~jvoung/race/fse2007.pdf) -[[Tool]](https://cseweb.ucsd.edu//~jvoung/race/)
 
 - **Dynamic Analysis/Predictive Analysis**
+  - [Efficient Timestamping for Sampling-based Race Detection (PLDI 2025)](https://dl.acm.org/doi/pdf/10.1145/3729252)
+  - [Predictive Monitoring with Strong Trace Prefixes (CSV 2024)](https://link.springer.com/content/pdf/10.1007/978-3-031-65630-9_9.pdf)
+  - [Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis (S&P 2023)](https://www.cs.columbia.edu/~gabe/files/oakland2023_pla.pdf)
   - [Tolerate Control-Flow Changes for Sound Data Race Prediction (ICSE 2023)]
   - [Deadlock Prediction via Generalized Dependency (ISSTA 2022)](https://conf.researchr.org/details/issta-2022/issta-2022-technical-papers/16/Deadlock-Prediction-via-Generalized-Dependency)
   - [Optimal Prediction of Synchronization-Preserving Races (POPL 2021)](http://umathur3.web.engr.illinois.edu/papers/sync-preserving-race-popl2021.pdf)
@@ -94,6 +98,7 @@
   - [ThreadSanitizer – data race detection in practice (2009)](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35604.pdf)
 
 - **Fuzzing**
+  - [Greybox Fuzzing for Concurrency Testing (ASPLOS 2024)](https://dl.acm.org/doi/pdf/10.1145/3620665.3640389)
   - [Context-Sensitive and Directional Concurrency Fuzzing for Data-Race Detection (NDSS 2022)](https://www-users.cse.umn.edu/~kjlu/papers/conzzer.pdf)
   - [Fuzzing Channel-Based Concurrency Runtimes using Types and Effects (OOPSLA 2020)](https://2020.splashcon.org/details/splash-2020-oopsla/62/Fuzzing-Channel-Based-Concurrency-Runtimes-using-Types-and-Effects)
   - [Muzz: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs (Usenix Sec 2020)](https://www.usenix.org/system/files/sec20-chen-hongxu.pdf)
@@ -105,6 +110,8 @@
   - [OWL: Understanding and Detecting Concurrency Attacks (DSN 2018)](http://www.cs.columbia.edu/~junfeng/papers/owl-dsn18.pdf)
 
 - **Dynamic Testing/Systematic Testing**
+  - [Fray: An Efficient General-Purpose Concurrency Testing Platform for the JVM (OOPSLA 2025)](https://dl.acm.org/doi/pdf/10.1145/3764119)
+  - [Selectively Uniform Concurrency Testing (ASPLOS 2025)](https://dl.acm.org/doi/pdf/10.1145/3669940.3707214)
   - [Waffle: Exposing Memory Ordering Bugs Efficiently with Active Delay Injection (EuroSys 2023)](https://www.microsoft.com/en-us/research/uploads/prod/2022/12/EuroSys23_camera_ready__WAFFLE_Exposing_Memory_Ordering_Bugs_Efficiently_with_Active_Delay_Injection.pdf)
   - [Efficiently Detecting Concurrency Bugs in Persistent Memory Programs (ASPLOS 2022)](https://csyhua.github.io/csyhua/hua-asplos22.pdf)
   - [Controlled Concurrency Testing via Periodical Scheduling (ICSE 2022)](https://sites.google.com/view/period-cct)
@@ -162,6 +169,7 @@
   - [Calm Energy Accounting for Multithreaded Java Applications (ESEC/FSE 2020)](http://www.cs.binghamton.edu/~davidl/papers/FSE20Preprint.pdf)
 
 - **Reproducing/Dubugging**
+  - [DR.FIX: Automatically Fixing Data Races at Industry Scale (PLDI 2025)](https://dl.acm.org/doi/pdf/10.1145/3729265)
   - [Sparse record and replay with controlled scheduling (PLDI 2019)](https://dl.acm.org/doi/10.1145/3314221.3314635)
   - [AggrePlay: efficient record and replay of multi-threaded programs (ESEC/FSE 2019)](https://www.cs.cityu.edu.hk/~wkchan/papers/fse2019-pobee+chan.pdf)
   - [D4: Fast Concurrency Debugging with Parallel Differential Analysis (PLDI 2018)](https://parasol.tamu.edu/people/jeff/academic/d4.pdf)
@@ -174,6 +182,7 @@
   - [Concurrent Size (OOPSLA 2022)](https://arxiv.org/abs/2209.07100)
   
 - **Empirical Study/Benchmarking**
+  - [RaceBench: A Triggerable and Observable Concurrency Bug Benchmark (AsiaCCS 2023)](https://siqima.me/publications/RaceBench.pdf)
   - [An Empirical Study on Concurrency Bugs in Interrupt-driven Embedded Software](https://2023.issta.org/details/issta-2023-technical-papers/99/An-Empirical-Study-on-Concurrency-Bugs-in-Interrupt-driven-Embedded-Software)
   - [Gobench: A benchmark suite of real-world go concurrency bugs (CGO 2021)](https://ieeexplore.ieee.org/abstract/document/9370317)
   - [Actor Concurrency Bugs: A Comprehensive Study on Symptoms, Root Causes, API Usages, and Differences (OOPSLA 2021)](https://mbagherz.bitbucket.io/lab-correct-software/papers/akka-actor-bugs.pdf)
